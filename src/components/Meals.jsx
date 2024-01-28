@@ -3,7 +3,6 @@ import MealItem from "./MealItem";
 
 function Meals() {
   const [loadedMeals, setLoadedMeals] = useState([]);
-  console.log(loadedMeals);
 
   useEffect(() => {
     async function fetchMeals() {

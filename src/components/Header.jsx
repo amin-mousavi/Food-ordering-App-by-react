@@ -10,12 +10,6 @@ function Header() {
   const totalCartItems = items.reduce((totalNumberOfItems, item) => {
     return totalNumberOfItems + item.quantity;
   }, 0);
-  
-
-  // let t = 0;
-  // const totalCartItems = items.forEach((item) => {
-  //   t+= item.quantity
-  // })
 
   return (
     <header id="main-header">

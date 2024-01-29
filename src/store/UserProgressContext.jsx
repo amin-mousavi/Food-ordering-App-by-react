@@ -15,7 +15,7 @@ export function UserProgressContextProvider({ children }) {
 
   const showCart = () => setUserProgress("cart");
   const hideCart = () => setUserProgress("");
-  const showCheckout = () => setUserProgress("checkOut");
+  const showCheckout = () => setUserProgress("checkout");
   const hideCheckout = () => setUserProgress("");
 
   const userProgressContextValue = {
